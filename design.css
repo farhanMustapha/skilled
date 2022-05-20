@@ -1,0 +1,192 @@
+/*https://anubliss-0.github.io/skilled-elearning-page/*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+
+.logo{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(12, 12, 32);
+}
+
+.btn-get-started button{
+    background-color:  rgb(12, 12, 32);
+    border: none;
+    height: 50px;
+    border-radius: 20px;
+    width: 160px;
+    color: white;
+    font-size: 20px;
+  
+    
+}
+
+
+/*------------------------part 1---------------------------*/
+
+.part1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.left-part{
+    
+    height: 80px;
+}
+
+.title-part1{
+    margin-top: 220px;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.parag-part1{
+    margin-top: 40px;
+    width: 77%;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: rgb(122, 120, 120);
+    line-height: 30px;
+}
+
+.btn-part1{
+    margin-top: 30px;
+    background-color: rgb(243, 66, 66);
+    height: 60px;
+    width: 180px;
+    border: none;
+    border-radius: 22px;
+    color: white;
+    font-size: 20px;
+}
+
+.right-part{
+    width: 50%;
+    height: 80px;
+}
+.right-part img{
+    margin-top: -160px;
+    width: 900px;
+    position: absolute;
+    right: 0;
+    
+    
+    
+}
+
+
+/*----------------------part 2----------------------*/
+.part2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 800px !important;
+    place-items: center;
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(238, 43, 150);
+    margin: 10px;
+    border-radius: 12px;
+}
+
+.box p{
+    padding-top: 100px;
+    padding-left: 40px;
+    box-shadow: rgb(122, 120, 120);
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box1{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+
+
+.title-box1{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.parag-box1{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/*------------partie footer------------------*/
+
+.footer{
+    background-color: rgb(18, 18, 63);
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-footer{
+    font-size: 50px;
+    font-weight: 600;
+    color:white;
+    
+}
+
+.btn-get-started-footer button{
+    background-color:  rgb(245, 63, 139);
+    border: none;
+    height: 50px;
+    border-radius: 20px;
+    width: 160px;
+    color: white;
+    font-size: 20px;
+    
+  
+    
+}
+
+.link-get-started{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 22px;
+    margin-left: 30px;
+    color: rgb(241, 26, 188);
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
